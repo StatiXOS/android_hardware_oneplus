@@ -52,7 +52,7 @@
         <activity
             android:name=".ButtonSettingsActivity"
             android:label="@string/button_panel_title"
-            android:exported="false">
+            android:exported="true">
             <intent-filter>
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
             </intent-filter>
